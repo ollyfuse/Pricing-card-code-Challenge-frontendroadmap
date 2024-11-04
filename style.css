@@ -1,0 +1,67 @@
+html {
+  font-family: karla;
+}
+.main-content {
+  padding: 100px;
+  position: relative;
+}
+.headline {
+  padding: 20px;
+  text-align: left;
+}
+.headline h3{
+  color: skyblue;
+}
+.headline h4 {
+  color: rgba( 219, 242, 39, 0.5);
+}
+.headline p {
+  color: rgba(138, 166, 163, 0.5);
+}
+.boxes {
+  display: flex;
+}
+.box-1 {
+  background-color: rgb(24, 165, 196);
+  flex: 50%;
+  padding: 20px;
+  color: white;
+}
+.box-2{
+  background-color: rgba(24, 165, 196, 0.5);
+  flex: 50%;
+  padding: 20px;
+  color: white;
+}
+.price-section {
+  display: flex;
+ 
+}
+.per-month{
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+.price {
+  font-size: 20px;
+}
+button {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(219, 242, 39, 1);
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px;
+}
+button:hover {
+  background-color:  rgba(138, 166, 163, 0.5);
+  transform: scale(1.1);
+}
+ul {
+  padding: 0;
+  list-style: none;
+  font-sixe 0.rem;
+  opacity: 0.8;
+}
